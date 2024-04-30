@@ -17,15 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={`&(inter.className) c text-gray-950 relative p-6`}>
-       
-          
+      <body className={`&(inter.className) bg-gray-200 text-gray-950 relative p-6`}> 
           <Header/>
           {children}
           <Footer/>
-          
-          
-      
        </body>
     </html>
   )

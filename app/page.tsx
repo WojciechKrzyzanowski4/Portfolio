@@ -8,11 +8,9 @@ import Laptop from "@/components/model";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
-      
       <Intro/>
       <About/>
       <Skills/>
-      <Laptop/>
       <Projects/>
       <Contact/>
     </main>
